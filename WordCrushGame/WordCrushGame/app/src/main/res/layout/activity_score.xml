@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <!-- 🔝 ÜST BAR -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:gravity="center_vertical"
+        android:background="#FFFFFF"
+        android:elevation="4dp">
+
+        <!-- 🔙 GERİ -->
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="←"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+        <!-- Başlık -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skor Tablosu"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+    <!-- 📊 İSTATİSTİK PANELİ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:layout_margin="12dp"
+        android:elevation="2dp">
+
+        <TextView
+            android:id="@+id/tvTotalGames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toplam Oyun: 0"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvHighScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En Yüksek Puan: 0"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvAvgScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ortalama Puan: 0"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvTotalWords"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toplam Kelime: 0"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvLongestWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En Uzun Kelime: -"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvTotalTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toplam Süre: 0 sn"
+            android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+
+    <!-- 📜 LİSTE -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewScores"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="12dp"
+        android:clipToPadding="false"/>
+
+</LinearLayout>
