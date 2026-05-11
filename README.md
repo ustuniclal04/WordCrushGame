@@ -29,3 +29,7 @@ Kelime uzunluğuna bağlı olarak oluşan simgeler:
 ## 👥 Geliştiriciler
 * **Merve Kübra ÖZTÜRK**
 * **İclal ÜSTÜN**
+
+## 📸 Ekran Görüntüleri
+
+![Oyun Ekranı](ekran1.png) ![Skorlar](ekran2.png)
