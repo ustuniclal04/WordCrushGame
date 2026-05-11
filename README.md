@@ -32,4 +32,4 @@ Kelime uzunluğuna bağlı olarak oluşan simgeler:
 
 ## 📸 Ekran Görüntüleri
 
-![Oyun Ekranı](ekran1.png) ![Skorlar](ekran2.png)
+![Oyun Ekranı](ekran1.png) ![Skorlar](ekran2.png) (ekran3.png) (ekran4.png) (ekran5.png) (ekran6.png) (ekran7.png) (ekran8.png)
