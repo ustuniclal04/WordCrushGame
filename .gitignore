@@ -1,0 +1,12 @@
+# Android Studio / IntelliJ dosyaları
+.idea/
+.gradle/
+build/
+*.iml
+
+# MacOS sistem dosyaları
+__MACOSX/
+.DS_Store
+
+# Yerel ayarlar
+local.properties
